@@ -9,3 +9,5 @@ Présentation des différentes chambres avec rendu 3D, tarifs par chambres et ob
 
 Page 3 : 
 Présentation des activités proposé par l’hôtel avec grille des horaires 
+
+Comme je ne peux pas accéder au github c'est Rémy qui met les fichiers à ma place mais il y a un probleme avec le JS que je lui ai envoyé par mail il n'arrive pas à le téléchager.
