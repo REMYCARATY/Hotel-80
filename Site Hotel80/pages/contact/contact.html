@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='fr'>
 <head>
-    <title>Hotel80-acceuil</title>
+    <title>Hotel80-contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -10,25 +10,29 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <meta name="description" content="Bienvenue sur le portfolio de Rémy Caraty.">
     <link rel="stylesheet" href="css\styles.css" />
-    <link rel='stylesheet' type='text/css' href='./asset/css/styleacceuil.css'>
+    <link rel='stylesheet' type='text/css' href='../../asset/css/contact.css'>
 </head>
 <body>
   <div class="page">
     <div id="rond">
           
     </div>
-    <img id="logo" src='./asset/img/logo.png' alt="logo hôtel 80">
+    <img id="logo" src='../../asset/img/logo.png' alt="logo hôtel 80">
     <div id=rectangle>
             
     </div>
-    <section id="infos">
-      <p id="présentations">
-        Hôtel-80 est un projet d'hotel sur le thème des années 80.<br/> 
-        Qui permettra on personnes ayant bien connues les années 80 de pouvoir s'évader du monde moderne afin de retrouver les années de leur jeunesse.<br/>
-        Retrouvez les activités des années 80 comme les discothèque et des chambre similaires à celle des hôtels de l’époque.  
-      </p>
-    </section>
-    <a class="b1 esp" href="./pages/concept.html">Découvrir notre concept</a>  
-  </div>
+<section class="cadre">
+    <form class="form" action='contact.php' method='POST'>
+        <h1>Page de contact</h1>
+        <p class="p1">Nom et prénom :</p>
+        <input class="identite" name='identite' type='texte'>
+        <p class="p2">Adresse Email :</p>
+        <input class="mail" name='email' type='email'>
+        <p class="p3">Votre méssage :</p>
+        <textarea class="msg" name='msg' type='text'></textarea>
+        <input class="b1" type='submit' value="Envoyer">
+        </form>
+</section>
+</div>
 </body>
 </html>
